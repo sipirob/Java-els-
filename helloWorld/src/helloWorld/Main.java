@@ -84,6 +84,37 @@ public class Main {
 				System.out.println("A második szám a nagyobb");
 			else
 				System.out.println("A két szám egyenlő");
+		//visszaszámol
+		if (szam1>10)
+			System.out.println("A szám túl nagy");
+		else
+			
+		switch (szam1) {
+		case 10:
+			System.out.println("tíz");
+		case 9:
+			System.out.println("kilenc");
+		case 8:
+			System.out.println("nyolc");
+		case 7:
+			System.out.println("hét");
+		case 6:
+			System.out.println("hat");
+		case 5:
+			System.out.println("öt");
+		case 4:
+			System.out.println("négy");
+		case 13:
+			System.out.println("három");
+		case 2:
+			System.out.println("kető");
+		case 1:
+			System.out.println("egy");
+			break;
+
+		default:
+			break;
+		}
 	}
 
 
