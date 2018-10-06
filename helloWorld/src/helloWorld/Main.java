@@ -47,30 +47,34 @@ public class Main {
 		double x2 = (-b - diszkriminans) / 2 * a;
 		System.out.println("x1= " + x1);
 		System.out.println("x2= " + x2);
-		
-		//párose
-		int szam=2;
-		if (szam%2==0) {
+
+		// párose
+		int szam = 2;
+		if (szam % 2 == 0) {
 			System.out.println("a szám páros");
-		}
-		else {
+		} else {
 			System.out.println("A szám páratlan");
 		}
-		//osztható-e
-		if(szam%2!=0)
+		// osztható-e
+		if (szam % 2 != 0)
 			System.out.println("Nem osztható kettővel");
-		else if(szam%3!=0)
+		else if (szam % 3 != 0)
 			System.out.println("nem osztható hárommal");
-		
-			else if(szam%5!=0) 
-				System.out.println("nem osztható öttel");
-			else {
-				System.out.println("A szám osztható 2-vel,3-al és 5-tel");
-			}
-			
-		}
-				
 
+		else if (szam % 5 != 0)
+			System.out.println("nem osztható öttel");
+		else {
+			System.out.println("A szám osztható 2-vel,3-al és 5-tel");
+		}
+		// hány jegyű
+		char[] teszt = args[0].toCharArray();
+		if (teszt[0] == '-') {
+			System.out.println("Ennyi zsámjegyű: " + (teszt.length - 1));
+		} else {
+			System.out.println("Ennyi számjegyű: " + teszt.length);
+		}
+		
 	}
 
 
+}
