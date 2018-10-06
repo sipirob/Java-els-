@@ -21,6 +21,7 @@ public class Main {
 		int b=Integer.parseInt(args[1]);
 		int c=Integer.parseInt(args[2]);
 		int terulet;
+		int kivonas=a-b;
 		int kerulet= a+b+c;
 		System.out.println("Kerület: "+kerulet);
 		
