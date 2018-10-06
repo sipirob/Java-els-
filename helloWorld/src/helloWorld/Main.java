@@ -23,6 +23,7 @@ public class Main {
 		int terulet;
 		int kivonas=a-b;
 		int kerulet= a+b+c;
+		
 		System.out.println("Kerület: "+kerulet);
 		
 	}
