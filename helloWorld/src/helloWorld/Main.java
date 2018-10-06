@@ -20,6 +20,8 @@ public class Main {
 		int a=Integer.parseInt(args[0]);
 		int b=Integer.parseInt(args[1]);
 		int c=Integer.parseInt(args[2]);
+		int d=Integer.parseInt(args[3]);
+		int e=Integer.parseInt(args[4]);
 		int terulet;
 		int kivonas=a-b;
 		int osszead= a+b;
@@ -31,6 +33,11 @@ public class Main {
 		System.out.println("különbség: "+kivonas);
 		System.out.println("összege: "+osszead);
 		System.out.println("hányadosa: "+hanyados);
+		
+		int atlag=(a+b+c+d+e)/args.length;
+		System.out.println(atlag);
+		int szamtaniKozep=(a+b+c+d+e)/atlag;
+		System.out.println("számtani közepe: "+szamtaniKozep);
 		
 	}
 
