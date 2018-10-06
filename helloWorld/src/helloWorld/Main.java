@@ -22,9 +22,14 @@ public class Main {
 		int c=Integer.parseInt(args[2]);
 		int terulet;
 		int kivonas=a-b;
+		int osszead= a+b;
 		int kerulet= a+b+c;
+		double hanyados=a/b;
 		
 		System.out.println("Kerület: "+kerulet);
+		System.out.println("különbség: "+kivonas);
+		System.out.println("összege: "+osszead);
+		System.out.println("hányadosa: "+hanyados);
 		
 	}
 
