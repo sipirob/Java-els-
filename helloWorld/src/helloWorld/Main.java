@@ -24,6 +24,7 @@ public class Main {
 		int kivonas=a-b;
 		int osszead= a+b;
 		int kerulet= a+b+c;
+		
 		double hanyados=(double) a/b;
 		
 		System.out.println("Kerület: "+kerulet);
