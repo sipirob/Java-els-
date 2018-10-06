@@ -73,7 +73,17 @@ public class Main {
 		} else {
 			System.out.println("Ennyi számjegyű: " + teszt.length);
 		}
-		
+		//melyik a nagyobb
+		int szam1=Integer.parseInt(args[0]);
+		int szam2=Integer.parseInt(args[1]);
+		if(szam1==0||szam2==0)
+			System.out.println("mindkét számnak nagyobbnak kell lennie 0-nál");
+			else if(szam1>szam2)
+				System.out.println("az első szám a nagyobb");
+			else if(szam2>szam1)
+				System.out.println("A második szám a nagyobb");
+			else
+				System.out.println("A két szám egyenlő");
 	}
 
 
