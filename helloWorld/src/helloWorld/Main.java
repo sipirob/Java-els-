@@ -56,8 +56,21 @@ public class Main {
 		else {
 			System.out.println("A szám páratlan");
 		}
+		//osztható-e
+		if(szam%2!=0)
+			System.out.println("Nem osztható kettővel");
+		else if(szam%3!=0)
+			System.out.println("nem osztható hárommal");
+		
+			else if(szam%5!=0) 
+				System.out.println("nem osztható öttel");
+			else {
+				System.out.println("A szám osztható 2-vel,3-al és 5-tel");
+			}
+			
+		}
 				
 
 	}
 
-}
+
